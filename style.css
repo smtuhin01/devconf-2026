@@ -54,7 +54,7 @@ body{
             rgba(0, 0, 0, 0.65)
         ),
         url("./assets/banner.jpg");
-    background-size: 1400px 750px; 
+    background-size: 1400px 700px; 
     background-position: center;
     display: flex;
     justify-content: center;
@@ -111,11 +111,11 @@ body{
     margin-bottom:70px;
 }
 .speakers-container {
-    width: 68%;
+    width: 80%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 35 px;
+    gap: 35px;
 }
 .speaker-card {
     border: 1px solid #dddddd;
