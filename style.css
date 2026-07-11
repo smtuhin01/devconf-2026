@@ -239,7 +239,6 @@ body{
     color:#444444;
     font-size: 15px;
 }
-
 .pricing-card li::marker {
     color:#2455dc;
 }
@@ -280,14 +279,12 @@ body{
 .pro-plan-name {
     color: #80b7ff;
 }
-/* Pro Button */
 .pro-button {
     background-color:#2455dc;
     color: white;
 
     border: none;
 }
-/* Button Hover */
 .standard-button:hover {
     background-color:#2455dc;
     color: white;
