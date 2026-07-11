@@ -47,17 +47,14 @@ body{
 .hero{
     width: 92%;
     min-height: 760px;
-
     margin: 10px auto 0;
-
     background-image:
         linear-gradient(
             rgba(0, 0, 0, 0.45),
             rgba(0, 0, 0, 0.65)
         ),
         url("./assets/banner.jpg");
-
-    background-size: cover;
+    background-size: 1400px 750px; 
     background-position: center;
     display: flex;
     justify-content: center;
@@ -100,21 +97,25 @@ body{
 }
 .speakers-section {
     width: 100%;
-    padding: 70px,0;
+    padding-top: 100px;
+    padding-bottom: 70px;
     background-color: white;
+    margin-top: 50px
 }
 .speakers-section h2 {
     text-align: center;
     font-size: 48px;
     margin-bottom: 45px;
     color: #070707;
+    margin-bottom:45px;
+    margin-bottom:70px;
 }
 .speakers-container {
     width: 68%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 28px;
+    gap: 35 px;
 }
 .speaker-card {
     border: 1px solid #dddddd;
@@ -132,8 +133,12 @@ body{
     color: #2455dc;
     font-size: 12px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
+.speaker-info {
+    padding: 18px 22px 22px 22px;
+}
+
 .speaker-info h3 {
     font-size: 19px;
     color: #111111;
@@ -146,4 +151,15 @@ body{
 }
 .speaker-card:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+@media screen and (max-width: 768px) {
+
+    .speakers-container {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+    .speakers-section h2 {
+        font-size: 36px;
+    }
+
 }
