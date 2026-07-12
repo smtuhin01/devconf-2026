@@ -211,15 +211,13 @@ body{
 
 .pricing-card h3 {
     font-size: 48px;
-    color: #0b1b2e;
-
+    color: #0b1b2e; 
     margin-bottom: 4px;
 }
 
 .price-text {
     color: #888888;
     font-size: 14px;
-
     margin-bottom: 24px;
 }
 
