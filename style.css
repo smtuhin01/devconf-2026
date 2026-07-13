@@ -1,4 +1,4 @@
-* {
+*{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -207,31 +207,25 @@ body{
 
     margin-bottom: 10px;
 }
-
-
 .pricing-card h3 {
     font-size: 48px;
     color: #0b1b2e; 
     margin-bottom: 4px;
 }
-
 .price-text {
     color: #888888;
     font-size: 14px;
     margin-bottom: 24px;
 }
-
 .pricing-card hr {
     border: none;
     border-top: 1px solid #dddddd;
     margin-bottom: 22px;
 }
-
 .pricing-card ul {
     margin-bottom: 25px;
     padding-left: 18px;
 }
-
 .pricing-card li {
     margin-bottom: 14px;
     color:#444444;
@@ -240,7 +234,6 @@ body{
 .pricing-card li::marker {
     color:#2455dc;
 }
-
 .pricing-card button {
     width: 100%;
     padding: 14px;
@@ -249,7 +242,6 @@ body{
     font-weight: bold;
     cursor: pointer;
 }
-
 .standard-button {
     background-color: white;
     color:#2455dc;
@@ -411,7 +403,6 @@ body{
     position: relative;
     transition: 0.3s;
 }
-
 .build-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 28px 55px rgba(0, 0, 0, 0.35);
